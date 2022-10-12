@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 625942549837.5,"dur": 5965302.2, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 625942570132.3,"dur": 516841.7, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 625943104625.5,"dur": 5361515.8, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "10/13/2022 01:03:04",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.9f1\\Editor\\Unity.exe\" -projectpath \"C:\\Users\\jyldy\\OneDrive\\\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b\\CubeSpawner-main\" -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-agdRWKtEc5VE2yHsd-AWf -hubSessionId 19d9d5b0-4a57-11ed-b1ea-ad1574ba0fa4 -accessToken L7Ax5wCFBLF1X9-ub4kwle1rTLXw33qDsHqgg6vIPDQ011f",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.9f1\\Editor\\Unity.exe -projectpath C:\\Users\\jyldy\\OneDrive\\\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b\\CubeSpawner-main -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-agdRWKtEc5VE2yHsd-AWf -hubSessionId 19d9d5b0-4a57-11ed-b1ea-ad1574ba0fa4 -accessToken L7Ax5wCFBLF1X9-ub4kwle1rTLXw33qDsHqgg6vIPDQ011f",
+"meta_user_name": "jyldy",
+"meta_os_version": "Microsoft Windows NT 10.0.19044.0",
+"meta_cpu_count": "4"
+}
